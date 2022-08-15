@@ -1,0 +1,107 @@
+.registration {
+    padding-top:50px ;
+    min-height: 1000px;
+    
+    &__wrapper {
+        display: flex;
+		margin-top: 60px;
+		justify-content: space-between;
+    }
+    .point {
+        margin-top: 150px;
+        font-weight: 700;
+        font-size: 76px;
+        color:rgb(0, 120, 170);
+        font-family: "comfortaa";
+        letter-spacing: -18px;
+    }
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 277px;
+        img {
+            width: 150px;
+            min-height: 150px;
+        }
+        
+	}
+	&__subtitle {
+        min-width: 300px;
+		margin-top: 15px;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 29px;
+		text-align: center;
+		color: #0D0D0D;
+	}
+	&__descr {
+		margin-top: 10px;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 18px;
+		text-align: center;
+		color: #0D0D0D;
+        ul {
+            margin-top: 0px;
+            text-align: left;
+        }
+        #gos{
+            width: 130px;
+            min-height: 0px;
+            border: 1px solid blue;
+            border-radius:50px;
+            padding: 0 20px;
+            background-color:white;
+
+
+        }
+	}
+    .title__title {
+        padding-top: 50px;
+        
+    }
+    .title__steps {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .wrap_ten{
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .ten_days{
+        display: flex;
+
+        #gosicon {
+            width: 67px;
+            align-items:center;
+        }
+
+        .descr{
+            align-items:center;
+            text-align: left;
+            margin-left: 10px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.5;
+            .sub{
+                font-size: 13px;
+                span {
+                    color:red;
+                }
+            }
+        }
+        .ten {
+            line-height: 70px;
+            font-size: 72px;
+            color:rgb(0, 120, 170);
+            font-family: "comfortaa";
+            font-weight: 700;
+    
+        }
+    }
+    
+}

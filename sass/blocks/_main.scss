@@ -1,0 +1,185 @@
+.main {
+    // background: url(../../img/main.png)  no-repeat;
+    // background-size: 50%;
+    // background-position: left bottom;
+    #main {
+        position: absolute;
+        width: 500px;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+    h1 {
+        text-transform: uppercase;
+        font-family:open sans;
+        text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+        letter-spacing: 0;
+        font-size: 38px;
+        font-weight: 400;
+        text-align: center;
+        span {
+            border-bottom: 3px solid #ffd300;;
+        }
+    }
+    
+    
+    .sub_wrapper{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 100px;
+    
+    
+    }
+    h2 {
+        text-align: center;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .wrap {
+    
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 100px;
+
+        &__prop_one {
+            text-align: center;
+            margin-right: 50px;
+            p { 
+                font-family: "comfortaa"; 
+                font-size: 38px;
+                font-weight: bold;
+                color: rgb(0, 120, 170);
+                margin-bottom: 10px ;
+                margin-top: 0;
+                span {
+                    font-family: "open sans";
+                    font-size: 22px;
+                    font-weight: 500;
+                }
+            }
+            .name {
+                font-size: 12px;
+                font-weight: 500;
+                text-transform: uppercase;
+    
+            }
+        }
+        &__prop_two {
+            text-align: center;
+            margin-right: 50px;
+            img {
+                width: 80px;
+                height: 67px;
+            }
+            p { 
+                font-family: "comfortaa"; 
+                font-size: 38px;
+                font-weight: bold;
+                color: rgb(0, 120, 170);
+                margin-bottom: 10px ;
+                span {
+                    font-family: "open sans";
+                    font-size: 22px;
+                    font-weight: 500;
+                }
+            }
+            .name {
+                font-size: 12px;
+                font-weight: 500;
+                text-transform: uppercase;
+    
+            }
+        }
+        display: flex;
+        align-items: flex-end;
+        &__prop_three {
+            text-align: center;
+            margin-right: 20px;
+            p { 
+                font-family: "comfortaa";
+                font-size: 52px;
+                font-weight: bold;
+                color: #ffd300;
+                text-transform: uppercase;
+                text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+                margin-bottom: 10px;
+                margin-top: 0;
+                span {
+                    font-family: "open sans";
+                    font-size: 22px;
+                    font-weight: 500;
+                }
+            }
+            .name {
+                font-size: 12px;
+                font-weight: 500;
+                text-transform: uppercase;
+    
+            }
+        }
+    }
+    .stiker {
+        margin-right: 100px;
+        margin-top: 50px;
+        background: url(../../img/sticker.png) right center no-repeat;
+        border-radius: 20px;
+        // position: absolute;
+        display: flex;
+        align-items:center;
+        justify-content: end;
+        .remni {
+            
+            
+            img {
+                border-radius: 20px;
+                margin-right: 5px;
+                width: 137px;
+            height: 137px;
+            }
+        }
+        .wrap_offer {
+            position: relative;
+            text-align: center;
+            hr {
+                border:0.5px solid #ffd300;
+                width: 130px;
+            }
+            &__title {
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            &__subtitle {
+                font-size: 16px;
+                font-weight: 400;
+            }
+            &__present {
+                margin-top: 5px;
+                font-size: 16px;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-style: italic;
+                margin-bottom: 30px;
+            }
+            button {
+                background-color: rgb(0, 120, 170);
+                border-radius:30px;
+                color: white;
+                padding: 15px 25px;
+                font-size: 16px;
+                font-weight: 700;
+                border:none;
+                margin-bottom: 30px;
+                cursor: pointer;
+                
+            }
+    
+    
+        }
+    
+    }
+
+}
+
+

@@ -1,0 +1,78 @@
+footer {
+    padding-top: 30px;
+    min-height: 400px;
+    background-color: #fff;
+    .wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    #links {
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.9;
+        list-style-type: none;
+        a{ 
+        text-decoration: none;
+        color: black;
+        padding-left: 10px;
+        }
+        #blue {
+            width: 160px;
+            border:2px solid rgb(0, 120, 170);
+            border-radius:30px;  
+        }
+        #yellow {
+            border:2px solid #ffd300;
+            border-radius:30px;
+            width: 200px;
+        }
+    }
+    .mail {
+        display: flex;
+        font-size: 16px;
+        align-items:center;
+    }
+    .phone {
+        
+
+        display: grid;
+        justify-content: center;
+        a {
+
+            text-decoration: none;
+            display: block;
+            font-size: 25px;
+            color: black;
+            font-weight: 700;
+            font-family: "comfortaa";
+        }
+    }
+    .button_mini {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 198px;
+        height: 42px;
+        background:   #ffd300;
+        border-radius: 45px;
+        border: none;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 19px;
+        color: black;
+        margin-bottom: 80px;
+        cursor: pointer;
+    }
+    .blank {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    #blue {
+        color:rgb(0, 120, 170);
+        margin-top: 20px;
+    }
+}

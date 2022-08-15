@@ -1,0 +1,96 @@
+.properties {
+    margin-top: 100px;
+    .container {
+        background-color:white;
+        display: grid;
+    }
+     #pritsep {
+        // display: none;
+        width:460px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+
+    }
+    .wrap, .wrap_two {
+        display: flex;
+        justify-content: flex-end;
+        margin: 50px;
+        &__prop_one {
+            margin: 0 20px;
+            text-align: center;
+            p { 
+                font-family: "comfortaa"; 
+                font-size: 38px;
+                font-weight: bold;
+                color: rgb(0, 120, 170);
+                margin-bottom: 10px ;
+                margin-top: 0;
+                span {
+                    text-align: center;
+                    font-family: "open sans";
+                    font-size: 22px;
+                    font-weight: 500;
+                }
+            }
+            .name {
+                font-size: 12px;
+                font-weight: 500;
+                text-transform: uppercase;
+    
+            }
+        }
+    }
+    .title__sub {
+        font-family: "comfortaa";
+        text-align: end;
+        margin-right: 80px;
+        hr {
+            margin-right: 160px;
+            height: 3px;
+            background-color:#ffd300;
+            border:none;
+            color: #ffd300;
+            width: 150px;
+        }
+    }
+    .title__mini {
+        font-family: "comfortaa";
+        margin-top: 50px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    hr {
+        width: 150px;
+        height: 3px;
+        background-color:#ffd300;
+        border:none;
+        color: #ffd300;
+
+    }
+    .wrapper {
+        display: grid;
+    }
+    .wrapper_one, .wrapper_two, .wrapper_three {
+        font-size: 12px;
+        font-weight: 500;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        justify-content: space-around;
+        img {  
+            max-width: auto;
+            height: 70px;
+        }
+    }
+    .wrapper__prop_two{
+            margin: 0 20px;
+            text-align: center;
+            max-width: 150px;
+    }
+
+    // .wrapper_three {
+    //     justify-content: flex-start; 
+    // }
+    //вернуть три в ряд
+}

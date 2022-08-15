@@ -1,0 +1,36 @@
+@font-face {
+    // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+    font-family: "comfortaa"; 
+    // адрес шрифта и тип 
+    src: url("../fonts/comfortaa/Comfortaa-Regular.woff2") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+@font-face {
+    // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+    font-family: "comfortaa"; 
+    // адрес шрифта и тип 
+    src: url("../fonts/comfortaa/Comfortaa-Bold.woff2") format("truetype"); 
+    font-style: normal; 
+    font-weight: bold; 
+} 
+body {
+    background-color: #f1f1f1;
+    font-family:open sans;
+}
+
+.container {
+    position: relative;
+    max-width: 1270px;
+    margin: 0 auto;
+}
+@import 'blocks/main';
+@import 'blocks/advantages';
+@import 'blocks/catalog';
+@import 'blocks/catalog-mini';
+@import 'blocks/contacts';
+@import 'blocks/stock';
+@import 'blocks/properties';
+@import 'blocks/registration';
+@import 'blocks/offer';
+@import 'blocks/footer';
